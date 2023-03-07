@@ -105,8 +105,12 @@
     }
     @media (max-width: 1028px){
   #near {
-  color:#7f8082
+  color:#7f8082 !important
   }
+
+
+
+  
  
   #far{
     color:#191b1d
@@ -200,13 +204,13 @@
               .attr("id", "MultiCarousel" + id);
 
             if (bodyWidth >= 1200) {
-              incno = itemsSplit[3];
+              incno = itemsSplit[1];
               itemWidth = sampwidth / incno;
             } else if (bodyWidth >= 992) {
-              incno = itemsSplit[2];
+              incno = itemsSplit[0];
               itemWidth = sampwidth / incno;
             } else if (bodyWidth >= 768) {
-              incno = itemsSplit[1];
+              incno = itemsSplit[0];
               itemWidth = sampwidth / incno;
             } else {
               incno = itemsSplit[0];
@@ -320,7 +324,17 @@
          
                 aria-expanded="false"
               >
-                Home
+              <p
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              style="color: white;"
+              >
+              Home
+            </p>
               </a>
             
             </li>
@@ -336,11 +350,34 @@
            
                 aria-expanded="false"
               >
+              <p
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              style="color: white;"
+              >
+           
+            
               
-                About us
+              About us
+            </p>
               </a>
-        
+       
             </li>
+            <!-- <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          111
+          </button> -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -349,7 +386,18 @@
         
                 aria-expanded="false"
               >
-                Our Team
+              <p
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              style="color: white;"
+              >
+              
+              Our Team
+            </p>
               </a>
         
             </li>
@@ -361,10 +409,24 @@
             
                 aria-expanded="false"
               >
-                Events
+              <!-- class="navbar-toggler" -->
+              <p
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              style="color: white;"
+              >
+           
+              Events
+              
+            </p>
               </a>
       
             </li>
+           
           </ul>
           <div class="nav-info-right d-flex align-items-center">
             <div class="social">
@@ -467,9 +529,9 @@
                 <div class="">
              
                   <!-- data-items="1,1,1,1,2,2" -->
+                  <!-- data-items="2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3"  -->
                   <div
-                 
-                  data-items="2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3" 
+                  data-items="1,3,5,6"
                     class="MultiCarousel"
                     data-slide="1"
                     id="MultiCarousel"
@@ -753,8 +815,6 @@
             >
               <div class="swiper-wrapper curs-scroll">
                 
-
-
                 <div class="">
                   <div class="item-title-in imago wow">
                     <div class="img">
@@ -777,7 +837,6 @@
                       </div>
                     </div>
                   </div>
-
                 <div class="">
                   <div class="item-title-in imago wow">
                     <div class="img">
@@ -800,7 +859,6 @@
                       </div>
                     </div>
                   </div>
-
                 <div class="">
                   <div class="item-title-in imago wow">
                     <div class="img">
@@ -827,7 +885,6 @@
                       </div>
                     </div>
                   </div>
-
                 <div class="">
                   <div class="item-title-in imago wow">
                     <div class="img">
