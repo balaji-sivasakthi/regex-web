@@ -1669,7 +1669,7 @@ main .slines span {
 }
 .navbar .social a {
   font-size: 18px;
-  margin: 0 10px;
+  /* margin: 0 10px; */
 }
 .navbar .bar {
   margin-left: 30px;
@@ -8677,7 +8677,7 @@ body.light .comments-from form button {
     height: 40px;
     line-height: 40px;
     text-align: center;
-/*     border: 1px solid rgba(255, 255, 255, 0.1); */
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
     border-radius: 50%;
   }
   .navbar-nav .dropdown-menu {
