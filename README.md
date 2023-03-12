@@ -1,2 +1,2 @@
 # regex-web
-Regex is the community for computer science engineering students at SNS College of Technology.
+Regex is the community for computer science and engineering students at SNS College of Technology.
