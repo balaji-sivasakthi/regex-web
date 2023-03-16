@@ -176,6 +176,9 @@ body.h-minimal h6 {
 img {
   width: 100%;
   height: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 12px;
 }
 
 h1 {
@@ -8649,14 +8652,14 @@ body.light .comments-from form button {
     color: #fff !important;
   }
   .navbar .logo {
-    margin-left: 15px;
-    width: 60px;
+    margin-left: 0px;
+    width: 70px;
   }
   .navbar .navbar-toggler {
     position: absolute;
-    top: 10px;
+    top: 30px;
     right: 30px;
-    font-size: 20px;
+    font-size: 25px;
     padding: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
